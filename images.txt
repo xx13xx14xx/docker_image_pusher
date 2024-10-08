@@ -4,4 +4,10 @@ k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
 xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
-python:alpine3.19
+image: langgenius/dify-api:0.9.1
+image: langgenius/dify-web:0.9.1
+image: postgres:15-alpine
+image: redis:6-alpine
+image: semitechnologies/weaviate:1.19.0
+image: langgenius/dify-sandbox:0.2.1
+image: nginx:latest
