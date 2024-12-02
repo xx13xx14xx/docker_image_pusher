@@ -5,4 +5,10 @@ xhofe/alist:latest
 #支持指定架构
 --platform=linux/arm64 xiaoyaliu/alist
 fantasticit/think
+pgvector/pgvector:pg16
+inio/minio
+casbin/casdoor
+lobehub/lobe-chat-database
+alpine
+
 
